@@ -1,0 +1,3302 @@
+Team Name:ateam
+Member 1 :Harry Bovik:bovik@cs.cmu.edu
+Measuring performance with gettimeofday().
+
+Testing mm malloc
+Reading tracefile: short1-bal.rep
+Checking mm_malloc for correctness, 
+=========================== mm_init ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 4096, fsize = 4096
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_init ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 1992, fsize = 1992
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 6088, fsize = 6088
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 6184, fsize = 6184
+halloc = 0, falloc = 0
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 12288, fsize = 12288
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+efficiency, 
+=========================== mm_init ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 4096, fsize = 4096
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_init ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 1992, fsize = 1992
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 6088, fsize = 6088
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 6184, fsize = 6184
+halloc = 0, falloc = 0
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 12288, fsize = 12288
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+and performance.
+
+=========================== mm_init ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 4096, fsize = 4096
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_init ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 1992, fsize = 1992
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 6088, fsize = 6088
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 6184, fsize = 6184
+halloc = 0, falloc = 0
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 12288, fsize = 12288
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_init ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 4096, fsize = 4096
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_init ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 1992, fsize = 1992
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 6088, fsize = 6088
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 6184, fsize = 6184
+halloc = 0, falloc = 0
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 12288, fsize = 12288
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_init ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 4096, fsize = 4096
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_init ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 1992, fsize = 1992
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 6088, fsize = 6088
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 6184, fsize = 6184
+halloc = 0, falloc = 0
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 12288, fsize = 12288
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_init ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 4096, fsize = 4096
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_init ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 1992, fsize = 1992
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 6088, fsize = 6088
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 6184, fsize = 6184
+halloc = 0, falloc = 0
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 12288, fsize = 12288
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_init ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 4096, fsize = 4096
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_init ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 1992, fsize = 1992
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 6088, fsize = 6088
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 6184, fsize = 6184
+halloc = 0, falloc = 0
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 12288, fsize = 12288
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_init ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 4096, fsize = 4096
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_init ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 1992, fsize = 1992
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 6088, fsize = 6088
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 6184, fsize = 6184
+halloc = 0, falloc = 0
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 12288, fsize = 12288
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_init ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 4096, fsize = 4096
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_init ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 1992, fsize = 1992
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 6088, fsize = 6088
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 6184, fsize = 6184
+halloc = 0, falloc = 0
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 12288, fsize = 12288
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_init ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 4096, fsize = 4096
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_init ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 1992, fsize = 1992
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 6088, fsize = 6088
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 6184, fsize = 6184
+halloc = 0, falloc = 0
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 12288, fsize = 12288
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_init ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 4096, fsize = 4096
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_init ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 1992, fsize = 1992
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 6088, fsize = 6088
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 6184, fsize = 6184
+halloc = 0, falloc = 0
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 12288, fsize = 12288
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_init ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 4096, fsize = 4096
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_init ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 1992, fsize = 1992
+halloc = 0, falloc = 0
+
+address = 0xf69ca020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 6088, fsize = 6088
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 1, falloc = 1
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2048, fsize = 2048
+halloc = 0, falloc = 0
+
+address = 0xf69c9820
+hsize = 56, fsize = 56
+halloc = 1, falloc = 1
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 2008, fsize = 2008
+halloc = 0, falloc = 0
+
+address = 0xf69cb020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_malloc ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 2104, fsize = 2104
+halloc = 0, falloc = 0
+
+address = 0xf69c9858
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_malloc ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 6184, fsize = 6184
+halloc = 0, falloc = 0
+
+address = 0xf69ca848
+hsize = 4080, fsize = 4080
+halloc = 1, falloc = 1
+
+address = 0xf69cb838
+hsize = 2024, fsize = 2024
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+=========================== mm_free ===========================
+address = 0xf69c9018
+hsize = 8, fsize = 8
+halloc = 1, falloc = 1
+
+address = 0xf69c9020
+hsize = 12288, fsize = 12288
+halloc = 0, falloc = 0
+
+address = 0xf69cc020
+hsize = 0
+halloc = 1
+=========================== mm_free ===========================
+
+Results for mm malloc:
+trace  valid  util     ops      secs  Kops
+ 0       yes   66%      12  0.000047   254
+Total          66%      12  0.000047   254
+
+Perf index = 40 (util) + 17 (thru) = 57/100

@@ -1,0 +1,2 @@
+set args -V -f short1-bal.rep
+tty /dev/pts/1

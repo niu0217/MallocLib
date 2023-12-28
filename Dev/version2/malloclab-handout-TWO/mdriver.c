@@ -688,7 +688,8 @@ static int eval_mm_valid(trace_t *trace, int tracenum, range_t **ranges)
  * eval_mm_util - Evaluate the space utilization of the student's package
  *   The idea is to remember the high water mark "hwm" of the heap for 
  *   an optimal allocator, i.e., no gaps and no internal fragmentation.
- *   Utilization is the ratio hwm/heapsize, where heapsize is the 
+ *   Utilization is the ratio hwm/heapsize, where heapsize is the
+ *
  *   size of the heap in bytes after running the student's malloc 
  *   package on the trace. Note that our implementation of mem_sbrk() 
  *   doesn't allow the students to decrement the brk pointer, so brk

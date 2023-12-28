@@ -11,7 +11,7 @@ https://blog.csdn.net/weixin_43362650/article/details/122890142
 下载文件：
 
 + traces.zip
-+ traces.zip
++ malloclab-handout.tar
 
 如何下载？
 
