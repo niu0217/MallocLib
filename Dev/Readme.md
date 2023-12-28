@@ -66,4 +66,4 @@
 + `size_t mem_pagesize(void); `返回系统页桢的大小（linux系统中为4K）。
 
 ## 3. 隐式空闲链表
-
+[Readme](https://github.com/niu0217/MallocLib/blob/main/Dev/version2/Readme.md)
